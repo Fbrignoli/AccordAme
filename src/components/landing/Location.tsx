@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { ScrollAnimationWrapper } from '@/components/ui/scroll-animation';
-import { MapPin, Phone, Mail } from 'lucide-react';
+import { MapPin, Phone, Mail, Instagram } from 'lucide-react';
 
 export function Location() {
   const mapImage = PlaceHolderImages.find((img) => img.id === 'location-map');
@@ -16,23 +16,27 @@ export function Location() {
         </ScrollAnimationWrapper>
         <div className="flex flex-col md:flex-row items-center gap-8 md:gap-16">
           <ScrollAnimationWrapper className="w-full md:w-1/2">
-            <h3 className="text-2xl font-headline text-primary mb-6">Accord'Âme - Lyon</h3>
+            <h3 className="text-2xl font-headline text-primary mb-6">Contact & Accès</h3>
             <ul className="space-y-4 text-lg">
-              <li className="flex items-start gap-4">
-                <MapPin className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
-                <span>123 Rue de la Musique, 69000 Lyon, France</span>
-              </li>
               <li className="flex items-center gap-4">
                 <Phone className="h-6 w-6 text-primary flex-shrink-0" />
-                <a href="tel:+330123456789" className="hover:text-primary transition-colors">01 23 45 67 89</a>
+                <a href="tel:+33673350931" className="hover:text-primary transition-colors">06 73 35 09 31</a>
               </li>
               <li className="flex items-center gap-4">
                 <Mail className="h-6 w-6 text-primary flex-shrink-0" />
-                <a href="mailto:contact@accordame.fr" className="hover:text-primary transition-colors">contact@accordame.fr</a>
+                <a href="mailto:danieladv82@yahoo.it" className="hover:text-primary transition-colors">danieladv82@yahoo.it</a>
+              </li>
+              <li className="flex items-start gap-4">
+                <MapPin className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
+                <span>Église Notre-Dame du Point du Jour – 20 Rue des Aqueducs 69005 Lyon</span>
+              </li>
+              <li className="flex items-center gap-4">
+                <Instagram className="h-6 w-6 text-primary flex-shrink-0" />
+                <a href="https://www.instagram.com/Accordame69" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">@Accordame69</a>
               </li>
             </ul>
             <p className="mt-6 text-muted-foreground">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac nibh et ex laoreet euismod.
+              N'hésitez pas à me contacter pour toute question ou pour vous inscrire.
             </p>
           </ScrollAnimationWrapper>
           <ScrollAnimationWrapper className="w-full md:w-1/2" delay={200}>

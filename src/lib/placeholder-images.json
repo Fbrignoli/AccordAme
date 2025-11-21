@@ -39,8 +39,8 @@
     {
       "id": "location-map",
       "description": "A stylized, artistic map showing the location of the school.",
-      "imageUrl": "https://images.unsplash.com/photo-1718498576347-b57e7bdf46a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMG1hcHxlbnwwfHx8fDE3NjM2MjUwODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract map"
+      "imageUrl": "/img/AA-8-1.png",
+      "imageHint": "school location"
     },
     {
       "id": "carousel-1",
