@@ -37,9 +37,6 @@ Ses compétences pédagogiques reconnues – notamment par l’obtention du Dipl
               <Button size="lg" className="rounded-full" asChild>
                 <a href="#location">Me contacter</a>
               </Button>
-              <Button size="lg" variant="outline" className="rounded-full" asChild>
-                <a href="#location">Me contacter</a>
-              </Button>
             </div>
           </ScrollAnimationWrapper>
         </div>
