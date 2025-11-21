@@ -1,5 +1,6 @@
 import { ScrollAnimationWrapper } from '@/components/ui/scroll-animation';
-import { Music, Heart, Users } from 'lucide-react';
+import { Heart, Users } from 'lucide-react';
+import { ViolinIcon } from '@/components/icons/ViolinIcon';
 
 export function SuzukiMethod() {
   return (
@@ -7,7 +8,7 @@ export function SuzukiMethod() {
       <div className="container mx-auto px-4 text-center">
         <ScrollAnimationWrapper>
           <div className="inline-block p-4 bg-background rounded-full mb-6 shadow">
-            <Music className="h-10 w-10 text-primary" />
+            <ViolinIcon className="h-10 w-10 text-primary" />
           </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-headline text-primary mb-6">
             La pédagogie Suzuki pour les enfants
@@ -37,7 +38,7 @@ export function SuzukiMethod() {
           </ScrollAnimationWrapper>
           <ScrollAnimationWrapper delay={300}>
             <div className="p-6">
-              <Music className="h-12 w-12 text-primary mx-auto mb-4" />
+              <ViolinIcon className="h-12 w-12 text-primary mx-auto mb-4" />
               <h3 className="text-2xl font-headline mb-2">Apprentissage par l'écoute</h3>
               <p className="leading-relaxed">
                 Vivamus et eleifend massa. Cras venenatis, dui et tincidunt tempor, sapien sapien blandit sem.
