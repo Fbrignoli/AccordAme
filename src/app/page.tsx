@@ -1,5 +1,6 @@
 import { Header } from '@/components/landing/Header';
 import { Hero } from '@/components/landing/Hero';
+import { About } from '@/components/landing/About';
 import { CourseInfo } from '@/components/landing/CourseInfo';
 import { ClassTypes } from '@/components/landing/ClassTypes';
 import { SuzukiMethod } from '@/components/landing/SuzukiMethod';
@@ -15,6 +16,7 @@ export default function Home() {
       <Header />
       <main className="flex-1">
         <Hero />
+        <About />
         <div className="bg-background leading-[0px] -mt-1">
           <WaveSeparator className="fill-secondary" />
         </div>

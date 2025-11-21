@@ -5,50 +5,32 @@ import { ScrollAnimationWrapper } from '@/components/ui/scroll-animation';
 import { ArrowDown } from 'lucide-react';
 
 export function Hero() {
-  const heroImage = PlaceHolderImages.find((img) => img.id === 'hero-portrait');
+  const heroImage = PlaceHolderImages.find((img) => img.id === 'hero-violin');
 
   return (
-    <section id="hero" className="relative bg-background overflow-hidden pt-32 pb-20 md:pt-40 md:pb-28">
-      <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16">
-          <ScrollAnimationWrapper className="md:w-1/3 flex justify-center">
-            {heroImage && (
-              <div className="relative w-48 h-48 md:w-64 md:h-64 lg:w-80 lg:h-80">
-                <Image
-                  src={heroImage.imageUrl}
-                  alt={heroImage.description}
-                  fill
-                  className="rounded-full object-cover shadow-lg"
-                  priority
-                  data-ai-hint={heroImage.imageHint}
-                />
-              </div>
-            )}
-          </ScrollAnimationWrapper>
-          <ScrollAnimationWrapper className="md:w-2/3 text-center md:text-left" delay={200}>
-            <p className="text-lg font-semibold text-primary mb-2">Professeure de violon & alto</p>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-headline text-primary mb-4">
-              Qui suis-je ?
-            </h1>
-            <p className="text-xl md:text-2xl mb-8 leading-relaxed">
-              Daniela de Vingo, professeur de violon et d’alto à l’école Accord’Ame à Lyon, met son expérience au service de ses élèves grâce à une pédagogie bienveillante et adaptée. Diplômée du Conservatoire de Turin avec un Master en violon, elle enseigne depuis plus de 15 ans après s’être formée à la méthode Suzuki. 
- <br /><br />
-Ses compétences pédagogiques reconnues – notamment par l’obtention du Diplôme d’État de professeur de violon – lui permettent de proposer des cours sur mesure pour tous niveaux. Son approche personnalisée et son expérience en musique de chambre, ainsi qu’en orchestres et dans des groupes de musique, font d’elle une enseignante polyvalente et passionnée.
-            </p>
-            <div className="flex gap-4 justify-center md:justify-start">
-              <Button size="lg" className="rounded-full" asChild>
-                <a href="#class-types">Prendre un cours</a>
-              </Button>
-              <Button size="lg" variant="outline" className="rounded-full" asChild>
-                <a href="#location">Me contacter</a>
-              </Button>
-            </div>
-          </ScrollAnimationWrapper>
-        </div>
-      </div>
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2">
-        <a href="#course-info" aria-label="Scroll down">
-          <ArrowDown className="h-8 w-8 animate-bounce text-primary/50" />
+    <section id="hero" className="relative bg-background overflow-hidden h-[60vh] md:h-[70vh] flex items-center justify-center">
+      {heroImage && (
+        <Image
+          src={heroImage.imageUrl}
+          alt={heroImage.description}
+          fill
+          className="object-cover"
+          priority
+          data-ai-hint={heroImage.imageHint}
+        />
+      )}
+      <div className="absolute inset-0 bg-black/50" />
+      <ScrollAnimationWrapper className="relative z-10 text-center text-primary-foreground">
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-headline mb-4">
+          Accord'Âme
+        </h1>
+        <p className="text-lg md:text-xl max-w-2xl mx-auto">
+          Cours de violon & alto à Lyon
+        </p>
+      </ScrollAnimationWrapper>
+       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10">
+        <a href="#about" aria-label="Scroll down">
+          <ArrowDown className="h-8 w-8 animate-bounce text-white/50" />
         </a>
       </div>
     </section>

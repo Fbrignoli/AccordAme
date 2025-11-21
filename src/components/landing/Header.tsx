@@ -7,6 +7,7 @@ import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Menu, Music } from 'lucide-react';
 
 const navLinks = [
+  { href: '#about', label: "Qui suis-je ?" },
   { href: '#course-info', label: "L'école" },
   { href: '#class-types', label: 'Les cours' },
   { href: '#suzuki', label: 'Pédagogie' },
