@@ -8,9 +8,9 @@ export function Hero() {
   const heroImage = PlaceHolderImages.find((img) => img.id === 'hero-portrait');
 
   return (
-    <section id="hero" className="relative bg-background overflow-hidden">
+    <section id="hero" className="relative bg-background overflow-hidden pt-32 pb-20 md:pt-40 md:pb-28">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16 min-h-[calc(100vh-4rem)] pt-16 pb-24">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16">
           <ScrollAnimationWrapper className="md:w-1/3 flex justify-center">
             {heroImage && (
               <div className="relative w-48 h-48 md:w-64 md:h-64 lg:w-80 lg:h-80">
@@ -26,6 +26,7 @@ export function Hero() {
             )}
           </ScrollAnimationWrapper>
           <ScrollAnimationWrapper className="md:w-2/3 text-center md:text-left" delay={200}>
+            <p className="text-lg font-semibold text-primary mb-2">Professeure de violon & alto</p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-headline text-primary mb-4">
               Qui suis-je ?
             </h1>
@@ -33,9 +34,11 @@ export function Hero() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem. Aliquam erat volutpat. Donec placerat nisl magna.
             </p>
             <div className="flex gap-4 justify-center md:justify-start">
-              <Button size="lg" className="rounded-full">Prendre un cours</Button>
-              <Button size="lg" variant="outline" className="rounded-full">
-                Me contacter
+              <Button size="lg" className="rounded-full" asChild>
+                <a href="#class-types">Prendre un cours</a>
+              </Button>
+              <Button size="lg" variant="outline" className="rounded-full" asChild>
+                <a href="#location">Me contacter</a>
               </Button>
             </div>
           </ScrollAnimationWrapper>
