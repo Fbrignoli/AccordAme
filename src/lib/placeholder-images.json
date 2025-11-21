@@ -9,7 +9,7 @@
     {
       "id": "hero-portrait",
       "description": "Portrait of Daniela de Vingo",
-      "imageUrl": "/img/AA-1.png",
+      "imageUrl": "/img/AA-18.png",
       "imageHint": "woman violin"
     },
     {
@@ -63,7 +63,7 @@
     {
       "id": "carousel-4",
       "description": "Sheet music on a stand with soft lighting.",
-      "imageUrl": "https://images.unsplash.com/photo-1626539896924-b328af4ef01d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzaGVldCUyMG11c2ljfGVufDB8fHx8MTc2MzcxODUzNXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1626539896924-b328af4ef01d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzaGVldCUyMG11c2ljfGVufDB8fHx8MTc2MzcxODUzNXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "sheet music"
     },
     {
