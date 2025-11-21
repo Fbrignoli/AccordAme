@@ -12,7 +12,7 @@ import { ScrollAnimationWrapper } from '@/components/ui/scroll-animation'
 import { PlaceHolderImages } from '@/lib/placeholder-images'
 
 export function Universe() {
-  const carouselImages = PlaceHolderImages.filter(img => img.id.startsWith('carousel-'));
+  const carouselImages = PlaceHolderImages.filter(img => img.imageUrl.startsWith('/img/'));
   
   const plugin = React.useRef(
     Autoplay({ delay: 3000, stopOnInteraction: false, stopOnMouseEnter: true })

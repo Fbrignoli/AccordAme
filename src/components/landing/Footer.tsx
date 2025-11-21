@@ -12,7 +12,7 @@ export function Footer() {
           &copy; {new Date().getFullYear()} Accord'Âme. Tous droits réservés.
         </p>
         <p className="text-xs mt-2">
-          Site vitrine conçu avec amour.
+          Powered by <a href="https://www.amplixy.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-primary">Amplixy</a>
         </p>
       </div>
     </footer>
