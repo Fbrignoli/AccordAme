@@ -1,5 +1,5 @@
 import { ScrollAnimationWrapper } from '@/components/ui/scroll-animation';
-import { Heart, Users, Music } from 'lucide-react';
+import { Heart, Users, Music, Ear } from 'lucide-react';
 
 export function SuzukiMethod() {
   return (
@@ -12,28 +12,35 @@ export function SuzukiMethod() {
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-headline text-primary mb-6">
             La pédagogie Suzuki pour les enfants
           </h2>
-          <p className="max-w-3xl mx-auto text-xl mb-12 leading-relaxed">
+          <p className="max-w-4xl mx-auto text-xl mb-12 leading-relaxed">
             La méthode Suzuki est au cœur de l’enseignement de Daniela de Vingo. Cette pédagogie repose sur une approche naturelle et immersive de l’apprentissage musical, particulièrement adaptée aux jeunes enfants dès l’âge de 3 ans.
-            <br/><br/>
-            Inspirée par l’observation de Shinichi Suzuki, cette pédagogie permet aux élèves d’apprendre à jouer du violon ou de l’alto de manière intuitive, sans passer par le solfège (les premières années), de la même manière qu’ils apprennent à parler avant de savoir lire.
           </p>
         </ScrollAnimationWrapper>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 max-w-6xl mx-auto">
           <ScrollAnimationWrapper delay={100}>
             <div className="p-6">
-              <Users className="h-12 w-12 text-primary mx-auto mb-4" />
-              <h3 className="text-2xl font-headline mb-2">Implication Parentale & Cours de Groupe</h3>
+              <Ear className="h-12 w-12 text-primary mx-auto mb-4" />
+              <h3 className="text-2xl font-headline mb-2">Apprentissage Naturel</h3>
               <p className="leading-relaxed">
-                L’implication des parents est un élément central de cette méthode : ils assistent aux cours et accompagnent leur enfant dans sa progression. Outre les cours individuels, les élèves participent également à des sessions de groupe, où ils développent l’écoute, le rythme et le plaisir de jouer ensemble.
+                Inspirée par l’observation de Shinichi Suzuki, cette pédagogie permet aux élèves d’apprendre à jouer du violon ou de l’alto de manière intuitive, de la même manière qu’ils apprennent leur langue maternelle.
               </p>
             </div>
           </ScrollAnimationWrapper>
           <ScrollAnimationWrapper delay={200}>
             <div className="p-6">
-              <Heart className="h-12 w-12 text-primary mx-auto mb-4" />
-              <h3 className="text-2xl font-headline mb-2">Immersion Musicale</h3>
+              <Users className="h-12 w-12 text-primary mx-auto mb-4" />
+              <h3 className="text-2xl font-headline mb-2">Implication Parentale</h3>
               <p className="leading-relaxed">
-                Cette immersion dans la communauté musicale est renforcée par l’écoute régulière de musique classique et la participation à des concerts, contribuant ainsi à un apprentissage complet et épanouissant.
+                L’implication des parents est un élément central : ils assistent aux cours, créent un environnement musical à la maison et accompagnent leur enfant dans sa progression quotidienne.
+              </p>
+            </div>
+          </ScrollAnimationWrapper>
+          <ScrollAnimationWrapper delay={300}>
+            <div className="p-6">
+              <Heart className="h-12 w-12 text-primary mx-auto mb-4" />
+              <h3 className="text-2xl font-headline mb-2">Cours de Groupe & Concerts</h3>
+              <p className="leading-relaxed">
+                Outre les cours individuels, les élèves participent à des sessions de groupe et à des concerts, où ils développent l’écoute, le rythme et le plaisir de jouer ensemble dans une communauté bienveillante.
               </p>
             </div>
           </ScrollAnimationWrapper>
