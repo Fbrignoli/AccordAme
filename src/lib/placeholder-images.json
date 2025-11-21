@@ -8,9 +8,9 @@
     },
     {
       "id": "hero-portrait",
-      "description": "Portrait of a friendly music teacher.",
-      "imageUrl": "https://images.unsplash.com/photo-1592621385612-4d7129426394?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx3b21hbiUyMHNtaWxpbmd8ZW58MHx8fHwxNzYzNzI1NTczfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "woman smiling"
+      "description": "Portrait of Daniela de Vingo",
+      "imageUrl": "https://storage.googleapis.com/aif-studiop-buckets-prod/project-1718222956980/s1y2j3k4-97c3-48e0-9e6b-4e1b8c2c1c3f.jpeg",
+      "imageHint": "woman violin"
     },
     {
       "id": "course-ambiance",
