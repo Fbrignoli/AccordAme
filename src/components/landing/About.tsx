@@ -28,7 +28,7 @@ export function About() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-headline text-primary mb-4">
               Qui suis-je ?
             </h1>
-            <p className="text-xl md:text-2xl mb-8 leading-relaxed">
+            <p className="text-lg mb-8 leading-relaxed">
               Daniela de Vingo, professeur de violon et d’alto à l’école Accord’Ame à Lyon, met son expérience au service de ses élèves grâce à une pédagogie bienveillante et adaptée. Diplômée du Conservatoire de Turin avec un Master en violon, elle enseigne depuis plus de 15 ans après s’être formée à la méthode Suzuki. 
  <br /><br />
 Ses compétences pédagogiques reconnues – notamment par l’obtention du Diplôme d’État de professeur de violon – lui permettent de proposer des cours sur mesure pour tous niveaux. Son approche personnalisée et son expérience en musique de chambre, ainsi qu’en orchestres et dans des groupes de musique, font d’elle une enseignante polyvalente et passionnée.
