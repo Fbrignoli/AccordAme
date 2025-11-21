@@ -1,3 +1,76 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-portrait",
+      "description": "Portrait of a friendly music teacher.",
+      "imageUrl": "https://images.unsplash.com/photo-1592621385612-4d7129426394?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx3b21hbiUyMHNtaWxpbmd8ZW58MHx8fHwxNzYzNzI1NTczfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman smiling"
+    },
+    {
+      "id": "course-ambiance",
+      "description": "Warm and inviting interior of the music school.",
+      "imageUrl": "https://images.unsplash.com/photo-1521604784100-e0318b4b2bad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtdXNpYyUyMHJvb218ZW58MHx8fHwxNzYzNzMwNDYzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "music room"
+    },
+    {
+      "id": "class-type-1",
+      "description": "A focused student in a one-on-one violin lesson.",
+      "imageUrl": "https://images.unsplash.com/photo-1746721562134-56a8f3a1d747?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx2aW9saW4lMjBsZXNzb258ZW58MHx8fHwxNzYzNzMwNDYzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "violin lesson"
+    },
+    {
+      "id": "class-type-2",
+      "description": "A group of students enjoying a music class together.",
+      "imageUrl": "https://images.unsplash.com/photo-1676149487685-c1b6c4082e8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxncm91cCUyMG11c2ljfGVufDB8fHx8MTc2MzczMDQ2M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "group music"
+    },
+    {
+      "id": "early-learning",
+      "description": "A young child curiously holding a small violin.",
+      "imageUrl": "https://images.unsplash.com/photo-1746721562134-56a8f3a1d747?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjaGlsZCUyMHZpb2xpbnxlbnwwfHx8fDE3NjM3MzA0NjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "child violin"
+    },
+    {
+      "id": "location-map",
+      "description": "A stylized, artistic map showing the location of the school.",
+      "imageUrl": "https://images.unsplash.com/photo-1718498576347-b57e7bdf46a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMG1hcHxlbnwwfHx8fDE3NjM2MjUwODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract map"
+    },
+    {
+      "id": "carousel-1",
+      "description": "Close-up of hands playing a violin.",
+      "imageUrl": "https://images.unsplash.com/photo-1622663235911-dc2ee781f4f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx2aW9saW4lMjBoYW5kc3xlbnwwfHx8fDE3NjM3MzA0NjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "violin hands"
+    },
+    {
+      "id": "carousel-2",
+      "description": "A recital with students performing.",
+      "imageUrl": "https://images.unsplash.com/photo-1671079654265-72bb8e210856?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtdXNpYyUyMHJlY2l0YWx8ZW58MHx8fHwxNzYzNzMwNDYzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "music recital"
+    },
+    {
+      "id": "carousel-3",
+      "description": "A collection of violins on a wall.",
+      "imageUrl": "https://images.unsplash.com/photo-1728984106308-af42a4eab467?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx2aW9saW5zJTIwY29sbGVjdGlvbnxlbnwwfHx8fDE3NjM3MzA0NjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "violins collection"
+    },
+    {
+      "id": "carousel-4",
+      "description": "Sheet music on a stand with soft lighting.",
+      "imageUrl": "https://images.unsplash.com/photo-1626539896924-b328af4ef01d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzaGVldCUyMG11c2ljfGVufDB8fHx8MTc2MzcxODUzNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sheet music"
+    },
+    {
+      "id": "carousel-5",
+      "description": "A luthier working on a violin.",
+      "imageUrl": "https://images.unsplash.com/photo-1695727036766-4d06ac90d7f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxsdXRoaWVyJTIwd29ya3Nob3B8ZW58MHx8fHwxNzYzNzMwNDYzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "luthier workshop"
+    },
+    {
+      "id": "carousel-6",
+      "description": "A student laughing during a lesson.",
+      "imageUrl": "https://images.unsplash.com/photo-1544717305-2782549b5136?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxoYXBweSUyMHN0dWRlbnR8ZW58MHx8fHwxNzYzNzA4NTEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "happy student"
+    }
+  ]
 }
