@@ -14,6 +14,8 @@ export function SuzukiMethod() {
           </h2>
           <p className="max-w-3xl mx-auto text-xl mb-12 leading-relaxed">
             La méthode Suzuki est au cœur de l’enseignement de Daniela de Vingo. Cette pédagogie repose sur une approche naturelle et immersive de l’apprentissage musical, particulièrement adaptée aux jeunes enfants dès l’âge de 3 ans.
+            <br/><br/>
+            Inspirée par l’observation de Shinichi Suzuki, cette pédagogie permet aux élèves d’apprendre à jouer du violon ou de l’alto de manière intuitive, sans passer par le solfège (les premières années), de la même manière qu’ils apprennent à parler avant de savoir lire.
           </p>
         </ScrollAnimationWrapper>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 max-w-4xl mx-auto">
