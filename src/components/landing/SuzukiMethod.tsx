@@ -13,7 +13,7 @@ export function SuzukiMethod() {
             La pédagogie Suzuki pour les enfants
           </h2>
           <p className="max-w-3xl mx-auto text-xl mb-12 leading-relaxed">
-            Une approche bienveillante et immersive pour apprendre la musique comme on apprend sa langue maternelle.
+            La méthode Suzuki est au cœur de l’enseignement de Daniela de Vingo. Cette pédagogie repose sur une approche naturelle et immersive de l’apprentissage musical, particulièrement adaptée aux jeunes enfants dès l’âge de 3 ans.
           </p>
         </ScrollAnimationWrapper>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
