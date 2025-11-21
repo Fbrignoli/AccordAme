@@ -1,4 +1,4 @@
-import { ViolinIcon } from '@/components/icons/ViolinIcon';
+import { Music } from 'lucide-react';
 import { ScrollAnimationWrapper } from '@/components/ui/scroll-animation';
 
 export function Hero() {
@@ -7,7 +7,7 @@ export function Hero() {
       <div className="container mx-auto px-4">
         <ScrollAnimationWrapper>
           <div className="inline-block p-4 bg-primary/10 rounded-full mb-6">
-             <ViolinIcon className="h-10 w-10 text-primary" />
+             <Music className="h-10 w-10 text-primary" />
           </div>
           <h1 className="text-5xl md:text-7xl font-headline text-primary mb-4">
             Accord'Âme

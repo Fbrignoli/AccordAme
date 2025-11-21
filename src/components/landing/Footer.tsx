@@ -1,11 +1,11 @@
-import { ViolinIcon } from '@/components/icons/ViolinIcon';
+import { Music } from 'lucide-react';
 
 export function Footer() {
   return (
     <footer className="bg-muted py-8">
       <div className="container mx-auto px-4 text-center text-muted-foreground">
         <div className="flex justify-center items-center gap-2 mb-4">
-          <ViolinIcon className="w-5 h-5 text-primary" />
+          <Music className="w-5 h-5 text-primary" />
           <p className="font-headline text-lg text-primary">Accord'Âme</p>
         </div>
         <p className="text-sm">
