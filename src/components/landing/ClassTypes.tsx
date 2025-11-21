@@ -29,7 +29,7 @@ export function ClassTypes() {
               </div>
             )}
           </ScrollAnimationWrapper>
-          <ScrollAnimationWrapper className="w-full md:w-1/2" delay={200}>
+          <ScrollAnimationWrapper className="w-full md:w-1/2" delay={100}>
             <p className="mb-6 text-lg leading-relaxed">
               À l’école Accord’Ame, les cours de violon et d’alto individuels ou en groupe sont accessibles à tous, quel que soit l’âge ou le niveau.
               <br/><br/>

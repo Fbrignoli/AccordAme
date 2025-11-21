@@ -39,7 +39,7 @@ export function Location() {
               N'hésitez pas à me contacter pour toute question ou pour vous inscrire.
             </p>
           </ScrollAnimationWrapper>
-          <ScrollAnimationWrapper className="w-full md:w-1/2" delay={200}>
+          <ScrollAnimationWrapper className="w-full md:w-1/2" delay={100}>
             {mapImage && (
               <div className="relative aspect-square w-full max-w-md mx-auto overflow-hidden rounded-lg shadow-lg">
                 <Image

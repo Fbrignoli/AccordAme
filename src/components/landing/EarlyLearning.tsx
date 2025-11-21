@@ -56,9 +56,11 @@ export function EarlyLearning() {
                 </li>
               ))}
             </ul>
-            <Button size="lg" variant="outline" className="rounded-full border-primary text-primary hover:bg-primary/10">Pour les parents</Button>
+             <Button size="lg" className="rounded-full" asChild>
+                <a href="#location">Me contacter</a>
+              </Button>
           </ScrollAnimationWrapper>
-          <ScrollAnimationWrapper className="w-full md:w-1/2" delay={200}>
+          <ScrollAnimationWrapper className="w-full md:w-1/2" delay={100}>
             {image && (
               <div className="relative aspect-[4/3] w-full overflow-hidden rounded-lg shadow-lg">
                 <Image

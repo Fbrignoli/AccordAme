@@ -23,7 +23,7 @@ export function About() {
               </div>
             )}
           </ScrollAnimationWrapper>
-          <ScrollAnimationWrapper className="md:w-2/3 text-center md:text-left" delay={200}>
+          <ScrollAnimationWrapper className="md:w-2/3 text-center md:text-left" delay={100}>
             <p className="text-lg font-semibold text-primary mb-2">Professeure de violon & alto</p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-headline text-primary mb-4">
               Qui suis-je ?
@@ -35,7 +35,7 @@ Ses compétences pédagogiques reconnues – notamment par l’obtention du Dipl
             </p>
             <div className="flex gap-4 justify-center md:justify-start">
               <Button size="lg" className="rounded-full" asChild>
-                <a href="#class-types">Prendre un cours</a>
+                <a href="#location">Me contacter</a>
               </Button>
               <Button size="lg" variant="outline" className="rounded-full" asChild>
                 <a href="#location">Me contacter</a>

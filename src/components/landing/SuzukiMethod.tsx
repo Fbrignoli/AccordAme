@@ -17,7 +17,7 @@ export function SuzukiMethod() {
           </p>
         </ScrollAnimationWrapper>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 max-w-6xl mx-auto">
-          <ScrollAnimationWrapper delay={100}>
+          <ScrollAnimationWrapper delay={0}>
             <div className="p-6">
               <Ear className="h-12 w-12 text-primary mx-auto mb-4" />
               <h3 className="text-2xl font-headline mb-2">Apprentissage Naturel</h3>
@@ -26,7 +26,7 @@ export function SuzukiMethod() {
               </p>
             </div>
           </ScrollAnimationWrapper>
-          <ScrollAnimationWrapper delay={200}>
+          <ScrollAnimationWrapper delay={100}>
             <div className="p-6">
               <Users className="h-12 w-12 text-primary mx-auto mb-4" />
               <h3 className="text-2xl font-headline mb-2">Implication Parentale</h3>
@@ -35,7 +35,7 @@ export function SuzukiMethod() {
               </p>
             </div>
           </ScrollAnimationWrapper>
-          <ScrollAnimationWrapper delay={300}>
+          <ScrollAnimationWrapper delay={200}>
             <div className="p-6">
               <Heart className="h-12 w-12 text-primary mx-auto mb-4" />
               <h3 className="text-2xl font-headline mb-2">Cours de Groupe & Concerts</h3>
