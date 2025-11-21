@@ -30,11 +30,13 @@ export function ClassTypes() {
             )}
           </ScrollAnimationWrapper>
           <ScrollAnimationWrapper className="w-full md:w-1/2" delay={200}>
-            <h3 className="text-2xl font-headline text-primary mb-4">Cours Individuels et en Groupe</h3>
             <p className="mb-6 text-lg leading-relaxed">
-              Que vous préfériez une attention personnalisée avec des cours individuels, ou l'énergie d'un apprentissage collectif avec des cours en groupe, Accord'Âme s'adapte à vos besoins. Chaque format est pensé pour vous offrir la meilleure expérience pédagogique possible, quel que soit votre niveau.
+              À l’école Accord’Ame, les cours de violon et d’alto individuels ou en groupe sont accessibles à tous, quel que soit l’âge ou le niveau.
+              <br/><br/>
+              Contrairement à l’idée reçue que le violon est un instrument difficile à appréhender, il peut être appris à tout moment de la vie, même à l’âge adulte, apportant de nombreux bienfaits cognitifs comme la création de nouvelles connexions neuronales. 
+              <br/><br/>
+              Que vous soyez un débutant complet ou un musicien confirmé, Daniela de Vingo, avec son approche bienveillante et son expérience pédagogique, vous accompagnera dans votre apprentissage et l’épanouissement de votre passion pour cet instrument.
             </p>
-            <Button size="lg" className="rounded-full">En savoir plus</Button>
           </ScrollAnimationWrapper>
         </div>
       </div>
