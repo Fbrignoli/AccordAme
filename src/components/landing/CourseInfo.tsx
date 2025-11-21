@@ -14,11 +14,12 @@ export function CourseInfo() {
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-headline text-primary mb-6">
               Des cours de violon et d’alto à Lyon
             </h2>
-            <p className="text-xl mb-4 leading-relaxed">
-              L’école Accord’Âme vous ouvre ses portes.
-            </p>
-            <p className="mb-8 text-lg leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem. Aliquam erat volutpat. Donec placerat nisl magna, et faucibus arcu condimentum sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <p className="text-lg mb-8 leading-relaxed">
+              L’école de musique Accord’Ame, située au cœur du quartier dynamique de Point du Jour dans le 5e arrondissement de Lyon, est un lieu privilégié pour l’apprentissage du violon et de l’alto. 
+              <br /><br />
+              Daniela de Vingo y dispense des cours basés sur la méthode Suzuki, une pédagogie reconnue pour son approche progressive et ludique, idéale pour les enfants comme pour les adultes. 
+              <br /><br />
+              Accord’Ame attire des élèves non seulement de Lyon 5, mais aussi des communes voisines comme Tassin, Sainte-Foy-lès-Lyon, Francheville et Écully. Avec Accord’Ame, les élèves bénéficient de cours de musique dans un environnement accueillant et bien desservi.
             </p>
             <Button size="lg" className="rounded-full">Découvrir l'école</Button>
           </ScrollAnimationWrapper>
