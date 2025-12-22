@@ -75,7 +75,7 @@ export function Universe() {
             </CarouselContent>
         </Carousel>
         <p className="text-center text-sm text-muted-foreground/60 mt-6 italic">
-          Photo par <a href="https://dianesevrin.fr/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors underline-offset-4 hover:underline">Diane Sevrin</a>
+          Photos par <a href="https://dianesevrin.fr/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors underline-offset-4 hover:underline">Diane Sevrin</a>
         </p>
       </ScrollAnimationWrapper>
     </section>
