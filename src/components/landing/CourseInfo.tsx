@@ -19,7 +19,7 @@ export function CourseInfo() {
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-headline text-primary mb-6">
              L’école Accord’Âme vous ouvre ses portes.
             </h2>
-            <div className="text-lg mb-8 leading-relaxed space-y-4">
+            <div className="text-base mb-8 leading-relaxed space-y-4">
               <p>
                L’école de musique Accord’Ame, située au cœur du quartier dynamique de Point du Jour dans le 5e arrondissement de Lyon, est un lieu privilégié pour l’apprentissage du violon et de l’alto. 
               </p>

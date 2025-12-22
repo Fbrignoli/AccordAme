@@ -42,7 +42,7 @@ export function EarlyLearning() {
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-headline text-primary mb-6">
               Apprendre le violon dès l’enfance
             </h2>
-            <p className="mb-8 text-lg leading-relaxed">
+            <p className="mb-8 text-base leading-relaxed">
               L’apprentissage du violon présente de nombreux bienfaits pour le développement global de l’enfant :
             </p>
             <ul className="space-y-4 mb-8">

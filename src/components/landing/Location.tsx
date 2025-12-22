@@ -24,7 +24,7 @@ export function Location() {
           {/* Bloc d'informations de contact */}
           <ScrollAnimationWrapper className="w-full md:w-1/2">
             <h3 className="text-2xl font-headline text-primary mb-6">Contact & Accès</h3>
-            <ul className="space-y-4 text-lg">
+            <ul className="space-y-4 text-base">
               {/* Téléphone */}
               <li className="flex items-center gap-4">
                 <Phone className="h-6 w-6 text-primary flex-shrink-0" />

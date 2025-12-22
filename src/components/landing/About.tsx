@@ -32,11 +32,11 @@ export function About() {
           
           {/* Bloc Texte avec animation et délai */}
           <ScrollAnimationWrapper className="md:w-2/3 text-center md:text-left" delay={100}>
-            <p className="text-lg font-semibold text-primary mb-2">Professeure de violon & alto</p>
+            <p className="text-base font-semibold text-primary mb-2">Professeure de violon & alto</p>
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-headline text-primary mb-4">
               Qui suis-je ?
             </h2>
-            <div className="text-lg mb-8 leading-relaxed space-y-4">
+            <div className="text-base mb-8 leading-relaxed space-y-4">
               <p>
                 Daniela de Vingo, professeur de violon et d’alto à l’école Accord’Ame à Lyon, met son expérience au service de ses élèves grâce à une pédagogie bienveillante et adaptée. Diplômée du Conservatoire de Turin avec un Master en violon, elle enseigne depuis plus de 15 ans après s’être formée à la méthode Suzuki. 
               </p>

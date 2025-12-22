@@ -19,7 +19,7 @@ export function Hero() {
             Accord'Âme
           </h1>
           {/* Sous-titre */}
-          <p className="text-xl md:text-2xl text-foreground/80 max-w-2xl mx-auto">
+          <p className="text-lg md:text-xl text-foreground/80 max-w-xl mx-auto">
             Cours de violon & alto à Lyon
           </p>
         </ScrollAnimationWrapper>
