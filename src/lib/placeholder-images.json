@@ -59,6 +59,24 @@
       "description": "Daniela Accord'Âme - Photo 5",
       "imageUrl": "/img/daniela_accordame-DianeSevrin-062.jpg",
       "imageHint": "violin player"
+    },
+    {
+      "id": "carousel-6",
+      "description": "Big Band Performance",
+      "imageUrl": "/img/20220312 Big band - EXP1-37.jpg",
+      "imageHint": "orchestra performance"
+    },
+    {
+      "id": "carousel-7",
+      "description": "Daniela Accord'Âme - Facebook Photo 1",
+      "imageUrl": "/img/FB_IMG_1705529952123.jpg",
+      "imageHint": "violin player facebook"
+    },
+    {
+      "id": "carousel-8",
+      "description": "Daniela Accord'Âme - Facebook Photo 2",
+      "imageUrl": "/img/FB_IMG_1705529995477.jpg",
+      "imageHint": "violin player facebook 2"
     }
   ]
 }

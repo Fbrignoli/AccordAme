@@ -17,8 +17,14 @@ import { PlaceHolderImages } from '@/lib/placeholder-images'
  * Utilise Embla Carousel avec le plugin Autoplay.
  */
 export function Universe() {
-  // Sélection de TOUTES les images locales pour le carrousel
-  const carouselImages = PlaceHolderImages.filter(img => img.imageUrl.startsWith('/img/'));
+  // Sélection des images pour le carrousel (uniquement celles commençant par carousel- ou contenant DianeSevrin/FB/Big band)
+  // On exclut les photos déjà utilisées dans les autres sections (AA-Pres, AA-Ecole, AA-Cours, AA-Note, AA-Lieux)
+  const carouselImages = PlaceHolderImages.filter(img => 
+    img.id.startsWith('carousel-') || 
+    img.imageUrl.includes('DianeSevrin') ||
+    img.imageUrl.includes('FB_IMG') ||
+    img.imageUrl.includes('Big band')
+  );
   
   // Configuration du plugin Autoplay
   const plugin = React.useRef(
