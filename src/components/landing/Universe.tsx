@@ -11,9 +11,16 @@ import {
 import { ScrollAnimationWrapper } from '@/components/ui/scroll-animation'
 import { PlaceHolderImages } from '@/lib/placeholder-images'
 
+/**
+ * Section "Mon univers".
+ * Affiche une galerie d'images sous forme de carrousel à défilement automatique.
+ * Utilise Embla Carousel avec le plugin Autoplay.
+ */
 export function Universe() {
+  // Sélection des images locales pour le carrousel
   const carouselImages = PlaceHolderImages.filter(img => img.imageUrl.startsWith('/img/'));
   
+  // Configuration du plugin Autoplay
   const plugin = React.useRef(
     Autoplay({ delay: 3000, stopOnInteraction: false, stopOnMouseEnter: true })
   )
@@ -21,6 +28,7 @@ export function Universe() {
   return (
     <section id="universe" className="bg-background overflow-hidden">
       <div className="container mx-auto px-4">
+        {/* Titre de la section avec animation */}
         <ScrollAnimationWrapper className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-headline text-primary">
             Mon univers
@@ -30,6 +38,8 @@ export function Universe() {
           </p>
         </ScrollAnimationWrapper>
       </div>
+
+      {/* Carrousel d'images */}
       <ScrollAnimationWrapper className="w-full">
          <Carousel
             plugins={[plugin.current]}

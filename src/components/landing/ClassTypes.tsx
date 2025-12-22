@@ -3,12 +3,18 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { ScrollAnimationWrapper } from '@/components/ui/scroll-animation';
 import { Button } from '@/components/ui/button';
 
+/**
+ * Section "Les cours".
+ * Présente les différents types de cours (individuels ou collectifs) et s'adresse à tous les niveaux.
+ * Met en avant l'accessibilité de l'instrument même à l'âge adulte.
+ */
 export function ClassTypes() {
   const image1 = PlaceHolderImages.find((img) => img.id === 'class-type-1');
 
   return (
     <section id="class-types" className="bg-background">
       <div className="container mx-auto px-4">
+        {/* Titre de section */}
         <ScrollAnimationWrapper>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-headline text-center text-primary mb-12">
             Des cours de violon individuel ou en groupe pour tous les âges
@@ -16,6 +22,7 @@ export function ClassTypes() {
         </ScrollAnimationWrapper>
 
         <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+          {/* Bloc Image */}
           <ScrollAnimationWrapper className="w-full md:w-1/2">
             {image1 && (
               <div className="relative aspect-[4/3] w-full overflow-hidden rounded-lg shadow-lg">
@@ -29,14 +36,20 @@ export function ClassTypes() {
               </div>
             )}
           </ScrollAnimationWrapper>
+
+          {/* Bloc Texte descriptif */}
           <ScrollAnimationWrapper className="w-full md:w-1/2" delay={100}>
-            <p className="mb-6 text-lg leading-relaxed">
-              À l’école Accord’Ame, les cours de violon et d’alto individuels ou en groupe sont accessibles à tous, quel que soit l’âge ou le niveau.
-              <br/><br/>
-              Contrairement à l’idée reçue que le violon est un instrument difficile à appréhender, il peut être appris à tout moment de la vie, même à l’âge adulte, apportant de nombreux bienfaits cognitifs comme la création de nouvelles connexions neuronales. 
-              <br/><br/>
-              Que vous soyez un débutant complet ou un musicien confirmé, Daniela de Vingo, avec son approche bienveillante et son expérience pédagogique, vous accompagnera dans votre apprentissage et l’épanouissement de votre passion pour cet instrument.
-            </p>
+            <div className="text-lg leading-relaxed space-y-4">
+              <p>
+                À l’école Accord’Ame, les cours de violon et d’alto individuels ou en groupe sont accessibles à tous, quel que soit l’âge ou le niveau.
+              </p>
+              <p>
+                Contrairement à l’idée reçue que le violon est un instrument difficile à appréhender, il peut être appris à tout moment de la vie, même à l’âge adulte, apportant de nombreux bienfaits cognitifs.
+              </p>
+              <p>
+                Que vous soyez un débutant complet ou un musicien confirmé, Daniela de Vingo vous accompagnera dans votre apprentissage et l’épanouissement de votre passion pour cet instrument.
+              </p>
+            </div>
           </ScrollAnimationWrapper>
         </div>
       </div>
