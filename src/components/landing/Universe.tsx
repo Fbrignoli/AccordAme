@@ -17,7 +17,7 @@ import { PlaceHolderImages } from '@/lib/placeholder-images'
  * Utilise Embla Carousel avec le plugin Autoplay.
  */
 export function Universe() {
-  // Sélection des images locales pour le carrousel
+  // Sélection de TOUTES les images locales pour le carrousel
   const carouselImages = PlaceHolderImages.filter(img => img.imageUrl.startsWith('/img/'));
   
   // Configuration du plugin Autoplay
@@ -68,6 +68,9 @@ export function Universe() {
                 ))}
             </CarouselContent>
         </Carousel>
+        <p className="text-center text-sm text-muted-foreground/60 mt-6 italic">
+          Photo par <a href="https://dianesevrin.fr/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors underline-offset-4 hover:underline">Diane Sevrin</a>
+        </p>
       </ScrollAnimationWrapper>
     </section>
   )

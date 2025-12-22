@@ -1,82 +1,64 @@
 {
   "placeholderImages": [
     {
-      "id": "hero-violin",
-      "description": "A beautiful violin resting on a dark surface.",
-      "imageUrl": "https://images.unsplash.com/photo-1586940277395-01b4a3459c07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx2aW9saW4lMjBjbG9zZSUyMHVwfGVufDB8fHx8MTc2NDA5ODA4MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "violin instrument"
-    },
-    {
       "id": "hero-portrait",
-      "description": "Portrait of Daniela de Vingo",
-      "imageUrl": "/img/AA-18.png",
+      "description": "Portrait de Daniela de Vingo",
+      "imageUrl": "/img/AA-Pres.jpg",
       "imageHint": "woman violin"
     },
     {
       "id": "course-ambiance",
-      "description": "Warm and inviting interior of the music school.",
-      "imageUrl": "/img/AA-1.png",
+      "description": "L'école Accord'Âme",
+      "imageUrl": "/img/AA-Ecole.jpg",
       "imageHint": "music room"
     },
     {
       "id": "class-type-1",
-      "description": "A focused student in a one-on-one violin lesson.",
-      "imageUrl": "/img/AA-3.jpg",
+      "description": "Cours de violon",
+      "imageUrl": "/img/AA-Cours.jpg",
       "imageHint": "violin lesson"
     },
     {
-      "id": "class-type-2",
-      "description": "A group of students enjoying a music class together.",
-      "imageUrl": "https://images.unsplash.com/photo-1676149487685-c1b6c4082e8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxncm91cCUyMG11c2ljfGVufDB8fHx8MTc2MzczMDQ2M3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "group music"
-    },
-    {
       "id": "early-learning",
-      "description": "A young child curiously holding a small violin.",
-      "imageUrl": "/img/AA-11.png",
+      "description": "Apprendre le violon dès l'enfance",
+      "imageUrl": "/img/AA-Note.jpg",
       "imageHint": "child violin"
     },
     {
       "id": "location-map",
-      "description": "A stylized, artistic map showing the location of the school.",
-      "imageUrl": "/img/AA-8-1.png",
+      "description": "Localisation de l'école",
+      "imageUrl": "/img/AA-Lieux.jpg",
       "imageHint": "school location"
     },
     {
       "id": "carousel-1",
-      "description": "Close-up of hands playing a violin.",
-      "imageUrl": "https://images.unsplash.com/photo-1622663235911-dc2ee781f4f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx2aW9saW4lMjBoYW5kc3xlbnwwfHx8fDE3NjM3MzA0NjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "violin hands"
+      "description": "Daniela Accord'Âme - Photo 1",
+      "imageUrl": "/img/daniela_accordame-DianeSevrin-013.jpg",
+      "imageHint": "violin player"
     },
     {
       "id": "carousel-2",
-      "description": "A recital with students performing.",
-      "imageUrl": "https://images.unsplash.com/photo-1671079654265-72bb8e210856?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtdXNpYyUyMHJlY2l0YWx8ZW58MHx8fHwxNzYzNzMwNDYzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "music recital"
+      "description": "Daniela Accord'Âme - Photo 2",
+      "imageUrl": "/img/daniela_accordame-DianeSevrin-020.jpg",
+      "imageHint": "violin player"
     },
     {
       "id": "carousel-3",
-      "description": "A collection of violins on a wall.",
-      "imageUrl": "https://images.unsplash.com/photo-1728984106308-af42a4eab467?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx2aW9saW5zJTIwY29sbGVjdGlvbnxlbnwwfHx8fDE3NjM3MzA0NjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "violins collection"
+      "description": "Daniela Accord'Âme - Photo 3",
+      "imageUrl": "/img/daniela_accordame-DianeSevrin-026.jpg",
+      "imageHint": "violin player"
     },
     {
       "id": "carousel-4",
-      "description": "Sheet music on a stand with soft lighting.",
-      "imageUrl": "https://images.unsplash.com/photo-1626539896924-b328af4ef01d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzaGVldCUyMG11c2ljfGVufDB8fHx8MTc2MzcxODUzNXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "sheet music"
+      "description": "Daniela Accord'Âme - Photo 4",
+      "imageUrl": "/img/daniela_accordame-DianeSevrin-055.jpg",
+      "imageHint": "violin player"
     },
     {
       "id": "carousel-5",
-      "description": "A luthier working on a violin.",
-      "imageUrl": "https://images.unsplash.com/photo-1695727036766-4d06ac90d7f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxsdXRoaWVyJTIwd29ya3Nob3B8ZW58MHx8fHwxNzYzNzMwNDYzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "luthier workshop"
-    },
-    {
-      "id": "carousel-6",
-      "description": "A student laughing during a lesson.",
-      "imageUrl": "https://images.unsplash.com/photo-1544717305-2782549b5136?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxoYXBweSUyMHN0dWRlbnR8ZW58MHx8fHwxNzYzNzA4NTEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "happy student"
+      "description": "Daniela Accord'Âme - Photo 5",
+      "imageUrl": "/img/daniela_accordame-DianeSevrin-062.jpg",
+      "imageHint": "violin player"
     }
   ]
 }
