@@ -25,6 +25,26 @@ export function ScrollAnimationWrapper({
     const element = ref.current;
     if (!element) return;
 
+    // Respecte l’accessibilité: si l’utilisateur préfère réduire les animations,
+    // on affiche directement le contenu sans attendre le scroll.
+    const reduceMotionQuery = window.matchMedia?.("(prefers-reduced-motion: reduce)");
+    if (reduceMotionQuery?.matches) {
+      setIsInView(true);
+      return;
+    }
+
+    const isMobile = window.matchMedia?.("(max-width: 768px)")?.matches ?? false;
+    const vh = Math.max(1, window.innerHeight || 0);
+
+    // On déclenche un peu AVANT l’entrée à l’écran, mais pas trop tôt (sinon
+    // l’animation se termine avant que l’utilisateur la voie).
+    const clamp = (v: number, min: number, max: number) => Math.min(max, Math.max(min, v));
+    const preloadPx = isMobile
+      ? clamp(Math.round(vh * 0.25), 90, 200)
+      : clamp(Math.round(vh * 0.2), 120, 260);
+
+    const rootMargin = `0px 0px ${preloadPx}px 0px`;
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
@@ -35,7 +55,8 @@ export function ScrollAnimationWrapper({
         }
       },
       {
-        threshold: 0.1,
+        rootMargin,
+        threshold: isMobile ? 0.08 : 0.1,
       }
     );
 
