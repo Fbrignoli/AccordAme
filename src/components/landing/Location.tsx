@@ -54,12 +54,14 @@ export function Location() {
           {/* Bloc Image (Carte) avec animation */}
           <ScrollAnimationWrapper className="w-full md:w-1/2" delay={100}>
             {mapImage && (
-              <div className="relative aspect-[4/3] w-full overflow-hidden rounded-lg shadow-lg">
+              <div className="relative aspect-[4/3] w-full overflow-hidden rounded-lg shadow-lg bg-muted/20">
                 <Image
                   src={mapImage.imageUrl}
                   alt={mapImage.description}
                   fill
                   className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  quality={80}
                   data-ai-hint={mapImage.imageHint}
                 />
               </div>

@@ -24,6 +24,8 @@ export function About() {
                   alt={aboutImage.description}
                   fill
                   className="rounded-full object-cover shadow-lg"
+                  sizes="(max-width: 768px) 192px, (max-width: 1024px) 256px, 320px"
+                  quality={85}
                   data-ai-hint={aboutImage.imageHint}
                 />
               </div>

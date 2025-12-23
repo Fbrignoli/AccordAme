@@ -38,12 +38,14 @@ export function CourseInfo() {
           {/* Bloc Image */}
           <ScrollAnimationWrapper className="w-full md:w-1/2" delay={100}>
             {image && (
-              <div className="relative aspect-[4/3] w-full overflow-hidden rounded-lg shadow-lg">
+              <div className="relative aspect-[4/3] w-full overflow-hidden rounded-lg shadow-lg bg-muted/20">
                 <Image
                   src={image.imageUrl}
                   alt={image.description}
                   fill
                   className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  quality={80}
                   data-ai-hint={image.imageHint}
                 />
               </div>
