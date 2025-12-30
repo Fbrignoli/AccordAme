@@ -1,4 +1,5 @@
 import type {Metadata} from 'next';
+import Script from 'next/script';
 import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
 
@@ -26,6 +27,11 @@ export default function RootLayout({
       <head>
         <meta name="x-build-sha" content={BUILD_SHA} />
         {BUILD_TIME ? <meta name="x-build-time" content={BUILD_TIME} /> : null}
+        <Script
+          src="https://trafic.amplixy.cloud/script.js"
+          data-website-id="23ee964e-e8e2-4fe8-8ed9-74330aaf48c5"
+          strategy="afterInteractive"
+        />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
